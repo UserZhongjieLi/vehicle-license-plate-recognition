@@ -4,7 +4,9 @@ This is a matlab test code for vehicle license plate recognition.
 clear
 clc
 I=imread('1.jpg');%读取图像
+
 figure(1);  subplot(3,2,1),imshow(I), title('原始图像');
+
 I1=rgb2gray(I);%转化为灰度图像
 
 graypicture=I1;
